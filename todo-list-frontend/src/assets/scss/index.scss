@@ -1,10 +1,12 @@
+@use './Home.scss';
+@use './blogCard.scss';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import '../../pages/Home.scss';
 
 /* Custom Tailwind Overrides */
 body {
-  @apply bg-gray-100 text-gray-800;
+  @apply bg-red-300 text-gray-800;
 }

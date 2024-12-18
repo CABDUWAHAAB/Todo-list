@@ -1,0 +1,11 @@
+.blogCards {
+  @apply flex;
+
+  &__Box {
+    @apply flex gap-[4rem] w-[100rem] h-full p-6 rounded-lg shadow;
+  }
+  
+  &__Card {
+    @apply flex flex-col gap-[4rem] w-[20rem] bg-yellow-300 h-[20rem];
+  }
+}
